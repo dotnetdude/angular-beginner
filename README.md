@@ -26,5 +26,12 @@ Another issue faced .c9 folder included in github to ignore
 
 Add .gitignore file and add ".c9/" to ignore c9 folder. 
 
+Even if you haven't tracked the files so far, git seems to be able to "know" about them even after you add them to .gitignore. 
+A quick fix that I've used was to run the following commands from the top folder of your git repo:
+
+git rm -r --cached .
+git add .
+git commit -m "fixed untracked files"
+
 
 
