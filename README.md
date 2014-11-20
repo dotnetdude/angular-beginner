@@ -22,4 +22,9 @@ git commit -m "First commit"
 
 git push -u origin master
 
+Another issue faced .c9 folder included in github to ignore
+
+Add .gitignore file and add ".c9/" to ignore c9 folder. 
+
+
 
